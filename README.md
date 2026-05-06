@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🌟 自动录入文字</h1>
+  <h1>🌟 自动录入英文</h1>
   <p><strong>人生苦短，科技飞升</strong></p>
   
   <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="version">
@@ -15,7 +15,7 @@
 
 ## 特性
 
-> 💡 支持中英文
+> 💡 支持英文
 > 🔥 图形化界面
 > ⚡ 含有打包好的应用，方便使用
 
