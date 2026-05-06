@@ -22,12 +22,12 @@
 ## 快速使用
 
 
-# 克隆项目
+### 克隆项目
 ```bash
 git clone https://github.com/1985899182/AutoTextInput.git
 ```
 
-# 安装依赖
+### 安装依赖
 ```bash
 pip install pyautogui
 ```
