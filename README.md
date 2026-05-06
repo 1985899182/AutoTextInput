@@ -23,8 +23,9 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/xxx/xxx.git
-
+git clone https://github.com/1985899182/AutoTextInput.git
+```
 ```bash
 # 安装依赖
 pip install pyautogui
+```
