@@ -25,5 +25,6 @@
 # 克隆项目
 git clone https://github.com/xxx/xxx.git
 
+```bash
 # 安装依赖
 pip install pyautogui
