@@ -99,17 +99,14 @@ class TypingWorker(QThread):
         for i, line in enumerate(lines):
             if not line.strip():
                 pyautogui.press('enter')
-                time.sleep(0.1)
+                time.sleep(self.interval)
                 continue
 
-            pyperclip.copy(line)
-            time.sleep(0.05)
-            pyautogui.hotkey('ctrl', 'v')
+            pyautogui.typewrite(line, interval=self.interval)
 
             if i < len(lines) - 1:
                 pyautogui.press('enter')
-
-            time.sleep(self.interval)
+                time.sleep(self.interval)
 
         self.finished.emit()
 
